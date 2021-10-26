@@ -3,10 +3,8 @@ galaxy_info:
   role_name: "{{ cookiecutter.role_name }}"
   author: "{{ cookiecutter.author }}"
   description: "{{ cookiecutter.description }}"
-  {%- if cookiecutter.company is defined -%}
-
   company: "{{ cookiecutter.company }}"
-  {% endif %}
+
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
   # issue_tracker_url: http://example.com/issue/tracker
