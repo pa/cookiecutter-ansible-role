@@ -4,6 +4,7 @@ galaxy_info:
   author: "{{ cookiecutter.author }}"
   description: "{{ cookiecutter.description }}"
   {%- if cookiecutter.company is defined -%}
+
   company: "{{ cookiecutter.company }}"
   {% endif %}
   # If the issue tracker for your role is not on github, uncomment the
