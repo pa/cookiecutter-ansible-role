@@ -1,5 +1,5 @@
 {
-    "role_name": "role_name",
+    "role_name": "ansible-role-xxxx",
     "author": "Pramodh Ayyappan",
     "description": "role description",
     "email": "pramodh.ayyappan92@gmail.com",
@@ -7,6 +7,5 @@
     "min_ansible_version": 2.9,
     "year": "2021",
     "version": "1.0.0",
-    "repo_name": "ansible-role-xxx",
     "github_username": "pa"
 }
