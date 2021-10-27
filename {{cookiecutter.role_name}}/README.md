@@ -1,4 +1,4 @@
-# {{cookiecutter.role_name}}
+# {{cookiecutter.role_name|replace('-', ' ')|title}}
 [![CI](https://github.com/{{cookiecutter.github_username}}/{{ cookiecutter.role_name }}/workflows/CI/badge.svg?event=push)](https://github.com/{{cookiecutter.github_username}}/{{ cookiecutter.role_name }}/actions?query=workflow%3ACI)
 
 {{cookiecutter.description}}
