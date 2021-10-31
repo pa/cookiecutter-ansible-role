@@ -1,5 +1,5 @@
 {
-    "role_name": "ansible-role-xxxx",
+    "role_name": "k3s",
     "author": "Pramodh Ayyappan",
     "description": "role description",
     "email": "pramodh.ayyappan92@gmail.com",
