@@ -21,7 +21,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - { role: {{ cookiecutter.role_name }}, x: 42 }
+         - { role: {{ cookiecutter.github_username }}.{{ cookiecutter.role_name }}, x: 42 }
 
 ## License
 
@@ -34,4 +34,4 @@ This role was created in {{cookiecutter.year}} by {{ cookiecutter.author }}.
 
 ## CONTRIBUTING
 
-`git clone git@github.com:{{cookiecutter.github_username}}/{{cookiecutter.role_name}}`
+`git clone git@github.com:{{cookiecutter.github_username}}/ansible-role-{{cookiecutter.role_name}}`
