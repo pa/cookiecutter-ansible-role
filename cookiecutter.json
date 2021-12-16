@@ -7,5 +7,6 @@
     "min_ansible_version": 2.9,
     "year": "2021",
     "version": "1.0.0",
-    "github_username": "pa"
+    "github_username": "pa",
+    "destination_dir": "# full path of the destination git directory"
 }
